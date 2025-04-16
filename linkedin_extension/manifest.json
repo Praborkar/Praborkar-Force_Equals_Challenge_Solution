@@ -1,0 +1,12 @@
+{
+  "manifest_version": 3,
+  "name": "LinkedIn Profile Enhancer",
+  "version": "1.0",
+  "permissions": ["storage"],
+  "content_scripts": [
+    {
+      "matches": ["*://*.linkedin.com/in/*"],
+      "js": ["content.js"]
+    }
+  ]
+}
